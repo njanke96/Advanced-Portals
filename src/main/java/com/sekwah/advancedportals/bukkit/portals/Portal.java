@@ -503,7 +503,7 @@ public class Portal {
             String bungeeServer = bungeeServers[random.nextInt(bungeeServers.length)];
             if (showBungeeMessage) {
                 player.sendMessage(PluginMessages.customPrefix + "\u00A7a Attempting to warp to \u00A7e" + bungeeServer
-                        + "\u00A7a.");
+                        + "\u00A7a. Use /server lobby to return to the lobby.");
             }
 
             if(portal.hasArg("leavedesti")) {
